@@ -1,6 +1,6 @@
 {
   "name": "@shubhhampgit01/myhomepagelibrary",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "type": "module",
   "publishConfig": {
     "@shubhhampgit01:registry": "https://npm.pkg.github.com"
@@ -9,16 +9,16 @@
     "dist",
     "README.md"
   ],
-  "main": "./dist/myhomepagelibrary.umd.js",
+  "main": "./dist/floda-components-frontend.umd.js",
   "style": "./dist/style.module.css",
-  "module": "./dist/myhomepagelibrary.es.js",
+  "module": "./dist/floda-components-frontend.es.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/myhomepagelibrary.es.js",
-      "require": "./dist/myhomepagelibrary.umd.js",
+      "import": "./dist/floda-components-frontend.es.js",
+      "require": "./dist/floda-components-frontend.umd.js",
       "types": "./dist/index.d.ts",
-      "style": "./dist/style.module.css"
+      "style": "./dist/style.css"
     },
     "./dist/style.css": {
       "import": "./dist/style.css",
@@ -36,7 +36,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@shubhhampgit01/mylibrarycontainer": "^0.1.5",
+    "@shubhhampgit01/mylibrarycontainer": "^0.1.16",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

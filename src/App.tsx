@@ -1,12 +1,12 @@
-import { NavBar } from '@shubhhampgit01/mylibrarycontainer'
+import { HomePage } from '@shubhhampgit01/mylibrarycontainer'
 import './App.css'
-import HomePage from './lib/Home/HomePage'
+// import HomePage from './lib/Home/HomePage'
 const App = () => {
   return (
     <div>
+      {/* <HomePage /> */}
+      <HomePage/>
       <h1>Main container</h1>
-      <HomePage />
-      <NavBar name='pankaj' />
     </div>
   )
 }
